@@ -10,7 +10,7 @@ with open('data.csv', 'w', encoding='utf8', newline='') as f:
     thewriter.writerow(header)
     
     #creating a for loop to loop through the pages
-    for number in range(1,500):
+    for number in range(1,3883):
         url = "https://au.trustpilot.com/review/afterpay.com?page="+str(number)
 
         # requesting page data and storing it to beautiful soup
